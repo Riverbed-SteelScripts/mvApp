@@ -6,6 +6,7 @@ import urllib2
 import json
 import requests
 import argparse
+import ssl
 
 """
 add the SCC fully qualified hostname and access_code below
@@ -134,7 +135,8 @@ def get_access_token(hostname, request_body):
     api_url = "https://{0}/api/common/1.0/oauth/token"
     req = urllib2.Request(url=api_url.format(hostname),
                           data=request_body)
-    f = urllib2.urlopen(req)
+    context = ssl._create_unverified_context()  # creates a new ssl context that does not verify SSL certs
+    f = urllib2.urlopen(req, context=context)  # remote the context to verify SSL certs
     data = f.read()
     decoded_data = json.loads(data)
     """
