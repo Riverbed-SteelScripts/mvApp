@@ -15,12 +15,12 @@ run the script "mvApp.py <from_group_id> <to_group_id>"
 """
 
 # Fully qualified hostname as string in single quotes
-HOSTNAME = 'riverbedscc.lagermann.com'
+HOSTNAME = ''
 
 # Access code generated from the appliance in single quotes
-ACCESS_CODE = 'eyJhdWQiOiAiaHR0cHM6Ly9SaXZlcmJlZENNQy5sYWdlcm1hbm4uY29tL2FwaS9jb21tb24vMS4wL3Rva2VuIiwgImlzcyI6ICJo' \
-              'dHRwczovL1JpdmVyYmVkQ01DLmxhZ2VybWFubi5jb20iLCAicHJuIjogImFkbWluIiwgImp0aSI6ICI1NmVjNmQyMy0zYjQxLTRk' \
-              'MDctYjY3Zi1lZmE4ODJhODQ1MjciLCAiZXhwIjogIjAiLCAiaWF0IjogIjEzODQyNjcwNTQifQ=='
+ACCESS_CODE = '' \
+              '' \
+              ''
 
 # Do not modify below this comment!  Do not modify below this comment!  Do not modify below this comment!
 # ------------------------------------------------------------------------------------------------------------------
