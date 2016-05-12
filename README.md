@@ -1,6 +1,10 @@
 # mvApp.py
 
-This is a python script for the purpose of moving large amounts of applications from one application group to another within the App Definition Groups on an SCC.  The script has 6 seperat options and some basic rules.
+#####Requirements
+This script requires 'requests' to be installed.  You can install all dependencies with:
+*#python -m pip install -r requirements.txt - from python in windows
+
+**mvApp** is a python script for the purpose of moving large amounts of applications from one application group to another within the App Definition Groups on an SCC.  The script has 6 seperat options and some basic rules.
 
 The fqdn of the SCC and the REST API access code for the SCC must be added to the script before it can be used.
 
