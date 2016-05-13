@@ -1,8 +1,8 @@
 ## mvApp.py
 
 ###Requirements
-This script requires some additional libraries to be installed.  You can install all dependencies with:
-**python -m pip install -r requirements.txt** - from python in windows
+This script requires some additional libraries to be installed.
+You can install all dependencies with: **python -m pip install -r requirements.txt** - from python in windows
 
 **mvApp** is a python script for the purpose of moving large amounts of applications from one application group to another within the App Definition Groups on an SCC.  The script has 6 separate options and some basic rules.
 
