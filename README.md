@@ -46,6 +46,25 @@ The group number must be between 1 and 10
        10: Custom Applications
 
 
+### *Running the script*.
+```
+usage: mvApp.py [-h] [-f FROM_GROUP] [-t TO_GROUP] [-b] [-g GROUP_RESTORE]
+                [-r] [-c]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -f FROM_GROUP, --from_group FROM_GROUP
+                        The group_id to remove applications from
+  -t TO_GROUP, --to_group TO_GROUP
+                        The group_id to move applications to
+  -b, --built_in_only   Move only default applications, do not move custom
+                        apps
+  -g GROUP_RESTORE, --group_restore GROUP_RESTORE
+                        Move a select group of applications to the default
+                        group
+  -r, --restore         Move all applications to their default groups
+  -c, --collect         Create a defaultGroups.txt file from a SCC
+```
 
 #### Caveats
 
