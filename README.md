@@ -4,8 +4,7 @@
 This script requires some additional libraries to be installed.  You can install all dependencies with:
 **python -m pip install -r requirements.txt** - from python in windows
 
-**mvApp** is a python script for the purpose of moving large amounts of applications from one application group to
-another within the App Definition Groups on an SCC.  The script has 6 separate options and some basic rules.
+**mvApp** is a python script for the purpose of moving large amounts of applications from one application group to another within the App Definition Groups on an SCC.  The script has 6 separate options and some basic rules.
 
 The fqdn of the SCC and the REST API access code for the SCC must be added to the script before it can be used.
 
@@ -13,11 +12,9 @@ The fqdn of the SCC and the REST API access code for the SCC must be added to th
 #### Each one of the following options are exclusive options.  They cannot be used with any other option.
 **collect:**  The collect option creates a defaultGroups.txt file from the current applications on the SCC.
 
-**restore:**  The restore option restores or moves all of the applications back to their default groups, as
-	defined in the defaultGroups.txt file.  All custom applications will move to group 10.
+**restore:**  The restore option restores or moves all of the applications back to their default groups, as defined in the defaultGroups.txt file.  All custom applications will move to group 10.
 
-**group_restore:**  The group_restore option restores or moves all of the applications from an original group back
-	to that group, as defined in the defaultGroups.txt file.
+**group_restore:**  The group_restore option restores or moves all of the applications from an original group back to that group, as defined in the defaultGroups.txt file.
 	
 #### The following options are required to be used together.
 **from_group:**  The from_group option identifies the group to remove all of the applications from.  If the built_in_only option is not used, ALL applications in this group will be moved.
