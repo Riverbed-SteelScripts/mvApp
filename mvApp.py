@@ -203,6 +203,7 @@ def collect_rest_api(access_token):
 
     except Exception, e:
         print e.message
+        exit (1)
 
 
 def group_rest_api(access_token):
@@ -233,6 +234,7 @@ def group_rest_api(access_token):
 
     except Exception, e:
         print e.message
+        exit (1)
 
 
 def restore_rest_api(access_token):
@@ -261,6 +263,7 @@ def restore_rest_api(access_token):
 
     except Exception, e:
         print e.message
+        exit (1)
 
 
 def execute_rest_api(access_token):
@@ -285,6 +288,7 @@ def execute_rest_api(access_token):
 
     except Exception, e:
         print e.message
+        exit (1)
 
 
 if __name__ == '__main__':
